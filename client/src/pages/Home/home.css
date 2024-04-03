@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  .search_add {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search_add {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
