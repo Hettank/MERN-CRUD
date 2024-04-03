@@ -4,7 +4,7 @@ import employeeRoutes from "./routes/employeeRoutes.js"
 import cors from "cors"
 
 const app = express()
-const PORT = 8000
+const PORT = process.env.PORT
 
 connectDB()
 
